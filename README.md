@@ -12,7 +12,7 @@ install.packages("devtools")
 
 # development version from GitHub:
 require("devtools")
-devtools::install_github("BandhanSarker/bRobustEdgeR")
+devtools::install_github("BandhanSarker/Rrobustedger")
 ```
 ## Usage
 
