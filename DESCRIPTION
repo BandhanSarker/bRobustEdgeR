@@ -1,0 +1,17 @@
+Package: Brobustedger
+Type: Package
+Title: Boosting Robust EdgeR
+Version: 0.1.0
+Authors@R: c(person("Bandhan", "Sarker",email="bandhansarker252@gmail.com", role=c("aut", "cre","cph")),person("Md. Matiur","Rahaman",email= "matiur.stat@gmail.com",role=c("aut","cph")),person("Muhammad Habibulla","Alamin",role="ctb"),person("Md. Ariful","Islam",role="ctb"),person("Md. Nurul Haque", "Mollah",role="aut"))
+Maintainer: Bandhan Sarker<bandhansarker252@gmail.com>
+Description: This package is used to identify differentially expressed genes (DEGs) from RNA-Seq count data if the dataset contain outliars or missing values. It uses iLOO method for searching the location of outliers and then considered as missing values. Missing values are imputed using random forest method. Finally DEGs are calculated by robust edgeR.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    edgeR,
+    limma,
+    missForest,
+    stats
+Depends: R (>= 2.10)
